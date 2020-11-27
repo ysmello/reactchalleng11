@@ -61,7 +61,9 @@ const Dashboard: React.FC = () => {
     setEditModalOpen(!editModalOpen);
   }
 
-  function handleEditFood(food: IFoodPlate): void {}
+  function handleEditFood(food: IFoodPlate): void {
+    setEditingFood(food);
+  }
 
   return (
     <>
